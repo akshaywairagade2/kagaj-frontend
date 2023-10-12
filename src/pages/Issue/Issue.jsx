@@ -39,7 +39,7 @@ const Issue = () => {
             };
 
             const data = await axios.post(
-                "http://localhost:5000/api/issue/createissue",
+                "https://kagaj-backend.onrender.com/api/issue/createissue",
                 {
                     "username": username,
                     "emailId": email,
